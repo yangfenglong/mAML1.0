@@ -1,0 +1,16 @@
+2019-11-14 13:22:11 Start reading data from Ravel2011_Vaginal.csv
+2019-11-14 13:22:11 Finish loading data from Ravel2011_Vaginal.csv, dimension is (342, 509), 
+ 			 label counts Counter({'low': 245, 'high': 97})
+2019-11-14 13:22:11 Filtered the features with max within_class prevalence lower than 0.2, dimension is (342, 45)
+2019-11-14 13:22:11 Selected 2 features using mrmr
+2019-11-14 13:22:11 Dataset shape Counter({1: 95, 0: 91}) before over sampling
+2019-11-14 13:22:11 Over sampled dataset with SMOTE, shape Counter({0: 95, 1: 95})
+2019-11-14 13:22:11 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 13:25:58 Best optimized classifier: KNeighborsClassifier , Accuracy:0.89, Best Param:{'clf': KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+                     weights='uniform'), 'clf__n_neighbors': 5, 'scl': NonScaler()}
+2019-11-14 13:25:59 Pipeline is finished
+2019-11-14 13:25:59 sklearn pipeline finished, total time cost: 228.4 s

@@ -1,0 +1,20 @@
+2019-11-14 12:01:32 Start reading data from Gevers2014_IBD_ileum.csv
+2019-11-14 12:01:32 Finish loading data from Gevers2014_IBD_ileum.csv, dimension is (140, 99), 
+ 			 label counts Counter({'CD': 78, 'no': 62})
+2019-11-14 12:01:32 Filtered the features with max within_class prevalence lower than 0.2, dimension is (140, 74)
+2019-11-14 12:01:34 Selected 50 features using mrmr
+2019-11-14 12:01:34 Dataset shape Counter({0: 78, 1: 62}) before over sampling
+2019-11-14 12:01:34 Over sampled dataset with SMOTE, shape Counter({1: 78, 0: 78})
+2019-11-14 12:01:34 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 12:07:42 RandomForestClassifier hypertuned, Accuracy:0.74, Best Param:{'clf': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=16, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=500,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False), 'clf__max_depth': 16, 'scl': NonScaler()}
+2019-11-14 12:07:43 Pipeline is finished
+2019-11-14 12:07:43 sklearn pipeline finished, total time cost: 371.1 s

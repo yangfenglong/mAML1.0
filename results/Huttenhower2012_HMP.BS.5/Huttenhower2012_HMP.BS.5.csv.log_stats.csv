@@ -1,0 +1,16 @@
+stats_index,stats_value
+original_dim,"(1529, 323)"
+prevalence_0.2_dim,"(1527, 80)"
+mrmr_dim,"(1524, 50)"
+ori_class_sample_count,"Counter({2: 319, 4: 316, 3: 313, 1: 311, 0: 265})"
+smote_class_sample_count,"Counter({0: 319, 1: 319, 2: 319, 3: 319, 4: 319})"
+best_estimator,"{'scl': 'FunctionTransformer', 'clf': 'LogisticRegression'}"
+hypertuned_best_parameters,"{'clf': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=0.15, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='elasticnet',
+                   random_state=0, solver='saga', tol=0.0001, verbose=0,
+                   warm_start=False), 'clf__C': 1.0, 'scl': FunctionTransformer(accept_sparse=False, check_inverse=True,
+                    func=<ufunc 'log1p'>, inv_kw_args=None, inverse_func=None,
+                    kw_args=None, pass_y='deprecated', validate=False)}"
+hypertuned_best_score_accuracy,0.97
+hypertuned_accuracy,0.97

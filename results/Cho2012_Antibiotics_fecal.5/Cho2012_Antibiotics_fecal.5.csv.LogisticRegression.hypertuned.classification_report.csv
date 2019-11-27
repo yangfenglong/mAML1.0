@@ -1,0 +1,5 @@
+,Chlortetracycline,Control,Penicillin,Vancomycin,VancomycinPenicillin,accuracy,macro avg,weighted avg
+precision,0.89,0.36,0.62,0.67,0.75,0.64,0.66,0.66
+recall,0.8,0.4,0.8,0.6,0.6,0.64,0.64,0.64
+f1-score,0.84,0.38,0.7,0.63,0.67,0.64,0.64,0.64
+support,10.0,10.0,10.0,10.0,10.0,0.64,50.0,50.0

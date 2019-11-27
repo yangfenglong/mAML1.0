@@ -1,0 +1,19 @@
+2019-11-14 02:03:30 Start reading data from Wu2011_Diet.csv
+2019-11-14 02:03:30 Finish loading data from Wu2011_Diet.csv, dimension is (85, 285), 
+ 			 label counts Counter({'LowFat': 45, 'HighFat': 40})
+2019-11-14 02:03:31 Filtered the features with max within_class prevalence lower than 0.2, dimension is (85, 128)
+2019-11-14 02:03:33 Selected 50 features using mrmr
+2019-11-14 02:03:33 Dataset shape Counter({1: 45, 0: 40}) before over sampling
+2019-11-14 02:03:33 Over sampled dataset with SMOTE, shape Counter({1: 45, 0: 45})
+2019-11-14 02:03:33 Select the best combination of different scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and different classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier', 'KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'MLPClassifier', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 02:39:27 RandomForestClassifier hypertuned, Accuracy:1.0000, Best Param:{'clf': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=4, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=500,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False), 'clf__max_depth': 4, 'scl': NonScaler()}
+2019-11-14 02:39:28 Pipeline is finished
+2019-11-14 02:39:28 sklearn pipeline finished, total time cost: 2157.5 s

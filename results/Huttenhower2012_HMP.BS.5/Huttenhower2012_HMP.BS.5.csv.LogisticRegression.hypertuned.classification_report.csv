@@ -1,0 +1,5 @@
+,Anterior_nares,Buccal_mucosa,Stool,Supragingival_plaque,Tongue_dorsum,accuracy,macro avg,weighted avg
+precision,0.99,0.94,1.0,0.98,0.96,0.97,0.97,0.97
+recall,1.0,0.93,1.0,0.98,0.95,0.97,0.97,0.97
+f1-score,0.99,0.93,1.0,0.98,0.95,0.97,0.97,0.97
+support,319.0,319.0,319.0,319.0,319.0,0.97,1595.0,1595.0

@@ -1,0 +1,20 @@
+2019-11-14 08:13:57 Start reading data from Cho2012_Antibiotics_fecal.5.csv
+2019-11-14 08:13:57 Finish loading data from Cho2012_Antibiotics_fecal.5.csv, dimension is (45, 107), 
+ 			 label counts Counter({'Vancomycin': 10, 'Control': 10, 'Penicillin': 9, 'VancomycinPenicillin': 8, 'Chlortetracycline': 8})
+2019-11-14 08:13:57 Filtered the features with max within_class prevalence lower than 0.2, dimension is (45, 106)
+2019-11-14 08:13:58 Selected 50 features using mrmr
+2019-11-14 08:13:58 Dataset shape Counter({3: 10, 1: 10, 2: 9, 4: 8, 0: 8}) before over sampling
+2019-11-14 08:13:58 Over sampled dataset with SMOTE, shape Counter({4: 10, 2: 10, 3: 10, 1: 10, 0: 10})
+2019-11-14 08:13:58 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 						 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 08:19:10 LogisticRegression hypertuned, Accuracy:0.64, Best Param:{'clf': LogisticRegression(C=10000.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=0.15, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='elasticnet',
+                   random_state=0, solver='saga', tol=0.0001, verbose=0,
+                   warm_start=False), 'clf__C': 10000.0, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}
+2019-11-14 08:19:12 Pipeline is finished
+2019-11-14 08:19:12 sklearn pipeline finished, total time cost: 315.7 s

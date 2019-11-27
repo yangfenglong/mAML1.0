@@ -1,0 +1,20 @@
+2019-11-14 12:14:14 Start reading data from Huttenhower2012_HMP.BS.5.csv
+2019-11-14 12:14:14 Finish loading data from Huttenhower2012_HMP.BS.5.csv, dimension is (1529, 323), 
+ 			 label counts Counter({'Stool': 319, 'Tongue_dorsum': 316, 'Supragingival_plaque': 313, 'Buccal_mucosa': 312, 'Anterior_nares': 269})
+2019-11-14 12:14:15 Filtered the features with max within_class prevalence lower than 0.2, dimension is (1527, 80)
+2019-11-14 12:14:30 Selected 50 features using mrmr
+2019-11-14 12:14:30 Dataset shape Counter({2: 319, 4: 316, 3: 313, 1: 311, 0: 265}) before over sampling
+2019-11-14 12:14:30 Over sampled dataset with SMOTE, shape Counter({0: 319, 1: 319, 2: 319, 3: 319, 4: 319})
+2019-11-14 12:14:30 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 12:45:33 LogisticRegression hypertuned, Accuracy:0.97, Best Param:{'clf': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=0.15, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='elasticnet',
+                   random_state=0, solver='saga', tol=0.0001, verbose=0,
+                   warm_start=False), 'clf__C': 1.0, 'scl': FunctionTransformer(accept_sparse=False, check_inverse=True,
+                    func=<ufunc 'log1p'>, inv_kw_args=None, inverse_func=None,
+                    kw_args=None, pass_y='deprecated', validate=False)}
+2019-11-14 12:45:35 Pipeline is finished
+2019-11-14 12:45:35 sklearn pipeline finished, total time cost: 1881.3 s

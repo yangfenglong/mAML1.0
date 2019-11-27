@@ -1,0 +1,15 @@
+2019-11-14 12:58:57 Start reading data from Morgan2012_IBD.3.csv
+2019-11-14 12:58:57 Finish loading data from Morgan2012_IBD.3.csv, dimension is (128, 687), 
+ 			 label counts Counter({"Crohn's disease": 62, 'Ulcerative Colitis': 47, 'Healthy': 19})
+2019-11-14 12:58:58 Filtered the features with max within_class prevalence lower than 0.2, dimension is (128, 208)
+2019-11-14 12:59:04 Selected 50 features using mrmr
+2019-11-14 12:59:04 Dataset shape Counter({0: 62, 2: 47, 1: 19}) before over sampling
+2019-11-14 12:59:04 Over sampled dataset with SMOTE, shape Counter({1: 62, 0: 62, 2: 62})
+2019-11-14 12:59:04 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 13:06:36 Best optimized classifier: KNeighborsClassifier , Accuracy:0.71, Best Param:{'clf': KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+                     weights='uniform'), 'clf__n_neighbors': 5, 'scl': Binarizer(copy=True, threshold=0)}
+2019-11-14 13:06:37 sklearn pipeline finished, total time cost: 459.8 s

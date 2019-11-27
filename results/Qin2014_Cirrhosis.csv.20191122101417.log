@@ -1,0 +1,18 @@
+2019-11-22 10:14:18 Start reading data from Qin2014_Cirrhosis.csv
+2019-11-22 10:14:18 Finish loading data from Qin2014_Cirrhosis.csv, dimension is (130, 8483), 
+ 			 label counts Counter({'Cirrhosis': 68, 'Healthy': 62})
+2019-11-22 10:14:25 Filtered the features with max within_class prevalence lower than 0.2, dimension is (130, 3899)
+2019-11-22 11:17:16 Selected 50 features using mrmr
+2019-11-22 11:17:16 Dataset shape Counter({0: 68, 1: 62}) before over sampling
+2019-11-22 11:17:16 Over sampled dataset with SMOTE, shape Counter({1: 68, 0: 68})
+2019-11-22 11:17:16 Select the best tree-based classifiers: ['RandomForestClassifier'] 
+ 			 and combination of scalers: ['NonScaler', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform'] 
+ 			 and classifiers: ['LinearSVC'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-22 11:20:53 Best optimized classifier: LinearSVC , Accuracy:0.92, Best Param:{'clf': LinearSVC(C=0.0001, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=0, tol=0.0001,
+          verbose=0), 'clf__C': 0.0001, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}
+2019-11-22 11:20:54 Pipeline is finished

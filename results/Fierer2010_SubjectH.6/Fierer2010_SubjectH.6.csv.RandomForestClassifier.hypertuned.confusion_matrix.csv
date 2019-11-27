@@ -1,0 +1,7 @@
+,Subject2_Left,Subject2_Right,Subject3_Left,Subject3_Right,Subject9_Left,Subject9_Right
+Subject2_Left,18,2,0,0,0,0
+Subject2_Right,2,18,0,0,0,0
+Subject3_Left,0,0,17,3,0,0
+Subject3_Right,0,0,3,17,0,0
+Subject9_Left,0,0,0,0,16,4
+Subject9_Right,0,0,0,0,2,18

@@ -1,0 +1,22 @@
+2019-11-14 08:19:14 Start reading data from Costello2009_BodyHabitats.6.csv
+2019-11-14 08:19:14 Finish loading data from Costello2009_BodyHabitats.6.csv, dimension is (552, 6979), 
+ 			 label counts Counter({'Skin': 357, 'Oral Cavity': 46, 'Nostril': 46, 'Feces': 45, 'External Auditory Canal': 44, 'Hair': 14})
+2019-11-14 08:19:30 Filtered the features with max within_class prevalence lower than 0.2, dimension is (552, 537)
+2019-11-14 08:20:20 Selected 50 features using mrmr
+2019-11-14 08:20:20 Dataset shape Counter({5: 356, 4: 46, 3: 46, 1: 45, 0: 44, 2: 14}) before over sampling
+2019-11-14 08:20:20 Over sampled dataset with SMOTE, shape Counter({5: 356, 0: 356, 1: 356, 2: 356, 4: 356, 3: 356})
+2019-11-14 08:20:20 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 						 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 08:59:07 RandomForestClassifier hypertuned, Accuracy:0.98, Best Param:{'clf': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=32, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=500,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False), 'clf__max_depth': 32, 'scl': NonScaler()}
+2019-11-14 08:59:09 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2019-11-14 08:59:09 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2019-11-14 08:59:09 Pipeline is finished
+2019-11-14 08:59:09 sklearn pipeline finished, total time cost: 2394.8 s

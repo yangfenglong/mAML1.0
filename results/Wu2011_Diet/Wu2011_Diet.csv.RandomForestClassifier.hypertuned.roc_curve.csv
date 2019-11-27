@@ -1,0 +1,5 @@
+classes,fpr,tpr,auc
+LowFat,0.0,0.0,1.0
+LowFat,0.0,0.022222222222222223,1.0
+LowFat,0.0,1.0,1.0
+LowFat,1.0,1.0,1.0

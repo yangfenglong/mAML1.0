@@ -1,0 +1,22 @@
+2019-11-14 08:59:11 Start reading data from Costello2009_SkinSites.12.csv
+2019-11-14 08:59:11 Finish loading data from Costello2009_SkinSites.12.csv, dimension is (357, 4793), 
+ 			 label counts Counter({'Plantar Foot': 64, 'Palm': 64, 'Popliteal Fossa': 46, 'Forehead': 32, 'Axilla': 28, 'Volear Forearm': 28, 'Palmar Index Finger': 28, 'Pinna': 27, 'External Nose': 14, 'Umbilicus': 12, 'Glans Penis': 8, 'Labia Minora': 6})
+2019-11-14 08:59:31 Filtered the features with max within_class prevalence lower than 0.2, dimension is (357, 504)
+2019-11-14 09:00:03 Selected 50 features using mrmr
+2019-11-14 09:00:03 Dataset shape Counter({8: 64, 5: 64, 9: 46, 2: 32, 0: 28, 11: 28, 6: 28, 7: 27, 1: 14, 10: 12, 3: 8, 4: 6}) before over sampling
+2019-11-14 09:00:03 Over sampled dataset with SMOTE, shape Counter({0: 64, 11: 64, 8: 64, 2: 64, 6: 64, 9: 64, 4: 64, 10: 64, 1: 64, 7: 64, 5: 64, 3: 64})
+2019-11-14 09:00:03 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 						 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 09:31:35 RandomForestClassifier hypertuned, Accuracy:0.90, Best Param:{'clf': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=16, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=500,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False), 'clf__max_depth': 16, 'scl': NonScaler()}
+2019-11-14 09:31:37 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2019-11-14 09:31:37 Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2019-11-14 09:31:37 Pipeline is finished
+2019-11-14 09:31:37 sklearn pipeline finished, total time cost: 1946.3 s

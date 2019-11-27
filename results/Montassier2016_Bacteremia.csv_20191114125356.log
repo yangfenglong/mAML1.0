@@ -1,0 +1,13 @@
+2019-11-14 12:53:56 Start reading data from Montassier2016_Bacteremia.csv
+2019-11-14 12:53:56 Finish loading data from Montassier2016_Bacteremia.csv, dimension is (28, 391), 
+ 			 label counts Counter({'NObact': 17, 'bact': 11})
+2019-11-14 12:53:56 Filtered the features with max within_class prevalence lower than 0.2, dimension is (28, 306)
+2019-11-14 12:53:58 Selected 50 features using mrmr
+2019-11-14 12:53:58 Dataset shape Counter({0: 17, 1: 11}) before over sampling
+2019-11-14 12:53:58 Over sampled dataset with SMOTE, shape Counter({1: 17, 0: 17})
+2019-11-14 12:53:58 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 12:58:52 Best optimized classifier: GaussianNB , Accuracy:0.74, Best Param:{'clf': GaussianNB(priors=None, var_smoothing=1e-09), 'scl': NonScaler()}
+2019-11-14 12:58:54 sklearn pipeline finished, total time cost: 298.5 s

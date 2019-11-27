@@ -1,0 +1,19 @@
+2019-11-14 03:49:58 Start reading data from Cho2012_Antibiotics_cecal.5.csv
+2019-11-14 03:49:58 Finish loading data from Cho2012_Antibiotics_cecal.5.csv, dimension is (47, 121), 
+ 			 label counts Counter({'Penicillin': 10, 'Control': 10, 'VancomycinPenicillin': 10, 'Vancomycin': 10, 'Chlortetracycline': 7})
+2019-11-14 03:49:59 Filtered the features with max within_class prevalence lower than 0.2, dimension is (47, 111)
+2019-11-14 03:50:00 Selected 50 features using mrmr
+2019-11-14 03:50:00 Dataset shape Counter({2: 10, 1: 10, 4: 10, 3: 10, 0: 7}) before over sampling
+2019-11-14 03:50:00 Over sampled dataset with SMOTE, shape Counter({2: 10, 1: 10, 0: 10, 4: 10, 3: 10})
+2019-11-14 03:50:00 Select the best combination of different scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and different classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier', 'KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'MLPClassifier', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 06:34:27 LogisticRegression hypertuned, Accuracy:0.86, Best Param:{'clf': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=0.15, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='elasticnet',
+                   random_state=0, solver='saga', tol=0.0001, verbose=0,
+                   warm_start=False), 'clf__C': 1.0, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='uniform', random_state=None,
+                    subsample=100000)}
+2019-11-14 06:34:28 Pipeline is finished
+2019-11-14 06:34:28 sklearn pipeline finished, total time cost: 9869.8 s

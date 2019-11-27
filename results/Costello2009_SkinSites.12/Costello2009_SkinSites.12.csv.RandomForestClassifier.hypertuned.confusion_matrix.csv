@@ -1,0 +1,13 @@
+,Axilla,External_Nose,Forehead,Glans_Penis,Labia_Minora,Palm,Palmar_Index_Finger,Pinna,Plantar_Foot,Popliteal_Fossa,Umbilicus,Volear_Forearm
+Axilla,60,0,0,0,0,0,1,0,1,0,1,1
+External_Nose,0,62,0,0,0,0,1,1,0,0,0,0
+Forehead,0,6,57,0,0,1,0,0,0,0,0,0
+Glans_Penis,0,0,0,64,0,0,0,0,0,0,0,0
+Labia_Minora,0,0,0,0,64,0,0,0,0,0,0,0
+Palm,3,1,5,1,0,27,19,1,0,2,0,5
+Palmar_Index_Finger,0,0,0,0,0,4,59,1,0,0,0,0
+Pinna,0,2,3,0,0,0,0,58,0,0,0,1
+Plantar_Foot,0,0,0,0,0,0,0,0,61,3,0,0
+Popliteal_Fossa,0,0,0,2,0,0,0,0,3,56,0,3
+Umbilicus,0,0,0,0,0,0,0,0,0,1,62,1
+Volear_Forearm,0,0,0,0,0,2,1,0,0,0,0,61

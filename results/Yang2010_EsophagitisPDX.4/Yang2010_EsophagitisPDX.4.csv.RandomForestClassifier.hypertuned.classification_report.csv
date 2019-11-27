@@ -1,0 +1,5 @@
+,Barrett's_Esophagus,Esophageal_Adenocarcinoma,Normal,Reflux_Esophagitis,accuracy,macro avg,weighted avg
+precision,0.63,0.7,0.8,0.74,0.73,0.71,0.71
+recall,0.44,0.65,0.93,0.88,0.73,0.73,0.73
+f1-score,0.52,0.67,0.86,0.8,0.73,0.71,0.71
+support,84.0,84.0,84.0,84.0,0.73,336.0,336.0

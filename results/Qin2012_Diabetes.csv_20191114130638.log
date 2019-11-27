@@ -1,0 +1,16 @@
+2019-11-14 13:06:40 Start reading data from Qin2012_Diabetes.csv
+2019-11-14 13:06:40 Finish loading data from Qin2012_Diabetes.csv, dimension is (124, 11880), 
+ 			 label counts Counter({'Y': 65, 'N': 59})
+2019-11-14 13:06:49 Filtered the features with max within_class prevalence lower than 0.2, dimension is (124, 3838)
+2019-11-14 13:08:44 Selected 50 features using mrmr
+2019-11-14 13:08:44 Dataset shape Counter({1: 65, 0: 59}) before over sampling
+2019-11-14 13:08:44 Over sampled dataset with SMOTE, shape Counter({0: 65, 1: 65})
+2019-11-14 13:08:44 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 13:14:19 Best optimized classifier: GaussianNB , Accuracy:0.75, Best Param:{'clf': GaussianNB(priors=None, var_smoothing=1e-09), 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}
+2019-11-14 13:14:20 Pipeline is finished
+2019-11-14 13:14:20 sklearn pipeline finished, total time cost: 461.8 s

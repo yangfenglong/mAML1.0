@@ -1,0 +1,12 @@
+stats_index,stats_value
+original_dim,"(124, 11880)"
+prevalence_0.2_dim,"(124, 3838)"
+mrmr_dim,"(124, 50)"
+ori_class_sample_count,"Counter({1: 65, 0: 59})"
+smote_class_sample_count,"Counter({0: 65, 1: 65})"
+best_estimator,"{'scl': 'QuantileTransformer', 'clf': 'GaussianNB'}"
+hypertuned_best_parameters,"{'clf': GaussianNB(priors=None, var_smoothing=1e-09), 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}"
+hypertuned_best_score_accuracy,0.82
+hypertuned_accuracy,0.75

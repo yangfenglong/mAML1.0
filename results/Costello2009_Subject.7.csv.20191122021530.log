@@ -1,0 +1,18 @@
+2019-11-22 02:15:30 Start reading data from Costello2009_Subject.7.csv
+2019-11-22 02:15:30 Finish loading data from Costello2009_Subject.7.csv, dimension is (140, 2543), 
+ 			 label counts Counter({'Subject1': 20, 'Subject2': 20, 'Subject3': 20, 'Subject4': 20, 'Subject5': 20, 'Subject6': 20, 'Subject7': 20})
+2019-11-22 02:15:37 Filtered the features with max within_class prevalence lower than 0.2, dimension is (140, 507)
+2019-11-22 02:16:02 Selected 100 features using mrmr
+2019-11-22 02:16:02 The dataset is balanced with class_sample_count Counter({0: 20, 1: 20, 2: 20, 3: 20, 4: 20, 5: 20, 6: 20})
+2019-11-22 02:16:02 Select the best tree-based classifiers: ['RandomForestClassifier', 'ExtraTreesClassifier'] 
+ 			 and combination of scalers: ['NonScaler', 'RobustScaler', 'PowerTransformer_Yeo-johnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'FunctionTransformer_np.log1p'] 
+ 			 and classifiers: ['LogisticRegression', 'LinearSVC'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-22 02:25:01 Best optimized classifier: LogisticRegression , Accuracy:0.95, Best Param:{'clf': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=0.15, max_iter=100,
+                   multi_class='auto', n_jobs=None, penalty='elasticnet',
+                   random_state=0, solver='saga', tol=0.0001, verbose=0,
+                   warm_start=False), 'clf__C': 1.0, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='uniform', random_state=None,
+                    subsample=100000)}
+2019-11-22 02:25:02 Pipeline is finished

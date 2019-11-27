@@ -1,0 +1,5 @@
+,External_Auditory_Canal,Feces,Hair,Nostril,Oral_Cavity,Skin,accuracy,macro avg,weighted avg
+precision,0.99,1.0,0.95,0.97,1.0,0.98,0.98,0.98,0.98
+recall,0.98,1.0,0.99,1.0,1.0,0.91,0.98,0.98,0.98
+f1-score,0.98,1.0,0.97,0.98,1.0,0.95,0.98,0.98,0.98
+support,356.0,356.0,356.0,356.0,356.0,356.0,0.98,2136.0,2136.0

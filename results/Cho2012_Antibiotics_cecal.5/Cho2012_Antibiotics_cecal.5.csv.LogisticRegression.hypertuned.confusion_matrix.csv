@@ -1,0 +1,6 @@
+,Chlortetracycline,Control,Penicillin,Vancomycin,VancomycinPenicillin
+Chlortetracycline,10,0,0,0,0
+Control,0,8,0,2,0
+Penicillin,0,0,9,0,1
+Vancomycin,0,0,0,8,2
+VancomycinPenicillin,1,1,0,0,8

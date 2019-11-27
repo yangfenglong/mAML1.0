@@ -1,0 +1,5 @@
+,HighFat,LowFat,accuracy,macro avg,weighted avg
+precision,1.0,1.0,1.0,1.0,1.0
+recall,1.0,1.0,1.0,1.0,1.0
+f1-score,1.0,1.0,1.0,1.0,1.0
+support,45.0,45.0,1.0,90.0,90.0

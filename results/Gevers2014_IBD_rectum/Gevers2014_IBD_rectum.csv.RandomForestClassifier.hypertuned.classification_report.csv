@@ -1,0 +1,5 @@
+,CD,no,accuracy,macro avg,weighted avg
+precision,0.8,0.82,0.81,0.81,0.81
+recall,0.83,0.79,0.81,0.81,0.81
+f1-score,0.81,0.81,0.81,0.81,0.81
+support,92.0,92.0,0.81,184.0,184.0

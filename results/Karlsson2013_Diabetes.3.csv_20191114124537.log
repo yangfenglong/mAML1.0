@@ -1,0 +1,19 @@
+2019-11-14 12:45:37 Start reading data from Karlsson2013_Diabetes.3.csv
+2019-11-14 12:45:37 Finish loading data from Karlsson2013_Diabetes.3.csv, dimension is (144, 1460), 
+ 			 label counts Counter({'T2D': 53, 'IGT': 48, 'NGT': 43})
+2019-11-14 12:45:39 Filtered the features with max within_class prevalence lower than 0.2, dimension is (144, 1281)
+2019-11-14 12:46:26 Selected 50 features using mrmr
+2019-11-14 12:46:26 Dataset shape Counter({2: 53, 0: 48, 1: 43}) before over sampling
+2019-11-14 12:46:26 Over sampled dataset with SMOTE, shape Counter({1: 53, 0: 53, 2: 53})
+2019-11-14 12:46:26 Select the best tree-based classifiers: ['DecisionTreeClassifier', 'BaggingClassifier', 'GradientBoostingClassifier', 'AdaBoostClassifier', 'RandomForestClassifier', 'ExtraTreesClassifier', 'XGBClassifier', 'LGBMClassifier'] 
+ 			 and combination of scalers: ['Non', 'Binarizer', 'MinMaxScaler', 'MaxAbsScaler', 'StandardScaler', 'RobustScaler', 'PowerTransformer_YeoJohnson', 'QuantileTransformer_Normal', 'QuantileTransformer_Uniform', 'Normalizer', 'Log1p'] 
+ 			 and classifiers: ['KNeighborsClassifier', 'GaussianNB', 'LogisticRegression', 'LinearSVC', 'SGDClassifier'] 
+ 			 Tune each classifier with GridSearchCV
+2019-11-14 12:53:52 Best optimized classifier: LinearSVC , Accuracy:0.47, Best Param:{'clf': LinearSVC(C=0.0001, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=0, tol=0.0001,
+          verbose=0), 'clf__C': 0.0001, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}
+2019-11-14 12:53:54 Pipeline is finished
+2019-11-14 12:53:54 sklearn pipeline finished, total time cost: 496.6 s

@@ -1,0 +1,16 @@
+stats_index,stats_value
+original_dim,"(357, 4793)"
+prevalence_0.2_dim,"(357, 504)"
+mrmr_dim,"(357, 50)"
+ori_class_sample_count,"Counter({8: 64, 5: 64, 9: 46, 2: 32, 0: 28, 11: 28, 6: 28, 7: 27, 1: 14, 10: 12, 3: 8, 4: 6})"
+smote_class_sample_count,"Counter({0: 64, 11: 64, 8: 64, 2: 64, 6: 64, 9: 64, 4: 64, 10: 64, 1: 64, 7: 64, 5: 64, 3: 64})"
+best_estimator,"{'scl': 'NonScaler', 'clf': 'RandomForestClassifier'}"
+hypertuned_best_parameters,"{'clf': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=16, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=500,
+                       n_jobs=None, oob_score=False, random_state=0, verbose=0,
+                       warm_start=False), 'clf__max_depth': 16, 'scl': NonScaler()}"
+hypertuned_best_score_accuracy,0.90
+hypertuned_accuracy,0.90

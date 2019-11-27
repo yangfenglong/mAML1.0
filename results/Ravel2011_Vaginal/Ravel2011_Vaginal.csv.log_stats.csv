@@ -1,0 +1,12 @@
+stats_index,stats_value
+original_dim,"(342, 509)"
+prevalence_0.2_dim,"(342, 45)"
+mrmr_dim,"(186, 2)"
+ori_class_sample_count,"Counter({1: 95, 0: 91})"
+smote_class_sample_count,"Counter({0: 95, 1: 95})"
+best_estimator,"{'scl': 'NonScaler', 'clf': 'KNeighborsClassifier'}"
+hypertuned_best_parameters,"{'clf': KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+                     weights='uniform'), 'clf__n_neighbors': 5, 'scl': NonScaler()}"
+hypertuned_best_score_accuracy,0.90
+hypertuned_accuracy,0.89

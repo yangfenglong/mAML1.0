@@ -1,0 +1,5 @@
+,Cirrhosis,Healthy,accuracy,macro avg,weighted avg
+precision,0.94,0.9,0.92,0.92,0.92
+recall,0.9,0.94,0.92,0.92,0.92
+f1-score,0.92,0.92,0.92,0.92,0.92
+support,68.0,68.0,0.92,136.0,136.0

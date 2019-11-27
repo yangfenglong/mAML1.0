@@ -1,0 +1,15 @@
+stats_index,stats_value
+original_dim,"(130, 8483)"
+prevalence_0.2_dim,"(130, 3899)"
+mrmr_dim,"(130, 50)"
+ori_class_sample_count,"Counter({0: 68, 1: 62})"
+smote_class_sample_count,"Counter({1: 68, 0: 68})"
+best_estimator,"{'scl': 'QuantileTransformer', 'clf': 'LinearSVC'}"
+hypertuned_best_parameters,"{'clf': LinearSVC(C=0.0001, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=0, tol=0.0001,
+          verbose=0), 'clf__C': 0.0001, 'scl': QuantileTransformer(copy=True, ignore_implicit_zeros=False, n_quantiles=1000,
+                    output_distribution='normal', random_state=None,
+                    subsample=100000)}"
+hypertuned_best_score_accuracy,0.93
+hypertuned_accuracy,0.92
