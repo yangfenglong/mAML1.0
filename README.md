@@ -2,18 +2,21 @@
 
 Automated machine learning model building pipeline for microbiome data
 
+![](./workflow_and_benchmark_results.svg)
+Flowchart of the mAML pipeline (A) and the performance compared to [baselines](http://39.100.246.211:8050/Dataset) (B). Labels are abbreviation of each dataset and the metrics used in original study
 
 ## Overview
 
 ```md
 mAML1.0/
 ├── README.md
-├── requirements.txt      			# requirements 
+├── requirements.txt							# requirements 
+├── LICENSE										# MIT License 
 ├── code/
-│   ├── sklearn_pipeline.py         # main script for the pipeline
-│   ├── sklearn_pipeline_config.py  # config file for changing classifiers with parameters grid and scalars 
-│   └── utils.py 					# usefull functions
-├── datasets/						# 18 datasets
+│   ├── sklearn_pipeline.py						# main script for the pipeline
+│   ├── sklearn_pipeline_config.py				# config file for changing classifiers with parameters grid and scalars 
+│   └── utils.py								# usefull functions
+├── datasets/									# 18 datasets
 │   ├── Cho2012_Antibiotics_cecal.5
 │   ├── Cho2012_Antibiotics_fecal.5
 │   ...
@@ -23,7 +26,7 @@ mAML1.0/
 │   ├── Ravel2011_Vaginal
 │   ├── Wu2011_Diet
 │   └── Yang2010_EsophagitisPDX.4
-└── results							# 18 datasets benchmark test results
+└── results										# 18 datasets benchmark test results
     ├── Cho2012_Antibiotics_cecal.5
     ├── Cho2012_Antibiotics_cecal.5.csv_20191114034958.log
     ├── Cho2012_Antibiotics_fecal.5
@@ -40,30 +43,26 @@ mAML1.0/
     ├── Wu2011_Diet.csv_20191114020330.log
     ├── Yang2010_EsophagitisPDX.4
     ├── Yang2010_EsophagitisPDX.4.csv_20191114132601.log
-    └── work.sh 					# shell scripts for regenerating benchmark results 
+    └── work.sh									# shell scripts for regenerating benchmark results 
 ```
 
 ## How to regenerate benchmark results
 
-1. Clone this Github Repository
+### 1. Clone this Github Repository
 
 ```
 git clone https://github.com/yangfenglong/mAML1.0.git
-cd mAML
-mkdir regenerate_results
-cd regenerate_results
+cd mAML1.0
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 
 ```
 python version is 3.7.3.
 pip3 install -r requirements.txt
 ```
 
-3. Usage of the pipeline:
-
-python ../code/sklearn_pipeline.py -h
+### 3. Usage of the pipeline:
 
 ```
 usage: sklearn_pipeline.py --help or -h  
@@ -94,7 +93,7 @@ Example:
 
 ```
 
-4. Examples of how to run mAML pipeline:
+### 4. Examples of how to run mAML pipeline:
 
 ```
 # Building a machine learning model for one dataset
@@ -104,8 +103,15 @@ python ../code/sklearn_pipeline.py \
 	--outdir Cho2012_Antibiotics_cecal.5  --search --over_sampling --mrmr_n 50 --n_jobs 4      
 ```
 
+### 5. Visualization outputs of the pipeline
 
-You can alse simply upload your own feature data to our [mAML web-server](http://39.100.246.211:8050/Server) to automatically build a predictive model following the [tutorial](http://39.100.246.211:8050/Help)  
+![](./Huttenhower2012_HMP.BS.5.results.svg)
+Visualizations for the best model of 'Huttenhower2012_HMP.BS.5' dataset: confusing matrix (A), ROC curve (B), classification report (C) and the top important features (D, default: top 20). In case of decision Tree based models, feature importances bar plot will be provided instead of feature’s coefficient plot.
 
 
-Any questions, contact me: yangfenglong110@126.com
+
+
+You can alse simply upload your own feature data to our [mAML web-server](http://39.100.246.211:8050/Server) to automatically build a predictive model following the [tutorial](http://39.100.246.211:8050/Help).  
+
+
+Any questions, contact me: yangfenglong110@126.com.
