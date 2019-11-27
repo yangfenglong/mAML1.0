@@ -10,13 +10,13 @@ Flowchart of the mAML pipeline (A) and the performance compared to [baselines](h
 ```md
 mAML1.0/
 ├── README.md
-├── requirements.txt							# requirements 
-├── LICENSE										# MIT License 
+├── requirements.txt 	# requirements 
+├── LICENSE 	# MIT License 
 ├── code/
-│   ├── sklearn_pipeline.py						# main script for the pipeline
-│   ├── sklearn_pipeline_config.py				# config file for changing classifiers with parameters grid and scalars 
-│   └── utils.py								# usefull functions
-├── datasets/									# 18 datasets
+│   ├── sklearn_pipeline.py 	# main script for the pipeline
+│   ├── sklearn_pipeline_config.py 	# config file for changing classifiers with parameters grid and scalars 
+│   └── utils.py 	# usefull functions
+├── datasets/ 	# 18 datasets
 │   ├── Cho2012_Antibiotics_cecal.5
 │   ├── Cho2012_Antibiotics_fecal.5
 │   ...
@@ -26,7 +26,7 @@ mAML1.0/
 │   ├── Ravel2011_Vaginal
 │   ├── Wu2011_Diet
 │   └── Yang2010_EsophagitisPDX.4
-└── results										# 18 datasets benchmark test results
+└── results 	# 18 datasets benchmark test results
     ├── Cho2012_Antibiotics_cecal.5
     ├── Cho2012_Antibiotics_cecal.5.csv_20191114034958.log
     ├── Cho2012_Antibiotics_fecal.5
@@ -43,7 +43,7 @@ mAML1.0/
     ├── Wu2011_Diet.csv_20191114020330.log
     ├── Yang2010_EsophagitisPDX.4
     ├── Yang2010_EsophagitisPDX.4.csv_20191114132601.log
-    └── work.sh									# shell scripts for regenerating benchmark results 
+    └── work.sh 	# shell scripts for regenerating benchmark results 
 ```
 
 ## How to regenerate benchmark results
