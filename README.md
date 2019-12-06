@@ -2,7 +2,7 @@
 
 Automated machine learning model building pipeline for microbiome data
 
-![](./workflow_and_benchmark_results.svg)
+![](./src/workflow_and_benchmark_results.svg)
 Flowchart of the mAML pipeline (A) and the performance compared to [baselines](http://39.100.246.211:8050/Dataset) (B). Labels are abbreviation of each dataset and the metrics used in original study
 
 ## Overview
@@ -105,7 +105,7 @@ python ../code/sklearn_pipeline.py \
 
 ### 5. Visualization outputs of the pipeline
 
-![](./Huttenhower2012_HMP.BS.5.results.svg)
+![](./src/Huttenhower2012_HMP.BS.5.results.svg)
 Visualizations for the best model of 'Huttenhower2012_HMP.BS.5' dataset: confusing matrix (A), ROC curve (B), classification report (C) and the top important features (D, default: top 20). In case of decision Tree based models, feature importances bar plot will be provided instead of feature’s coefficient plot.
 
 
