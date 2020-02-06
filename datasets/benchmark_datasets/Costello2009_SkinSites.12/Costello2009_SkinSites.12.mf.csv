@@ -1,0 +1,358 @@
+#SampleID,label
+Axilla,Axilla
+Axilla.1,Axilla
+Volear Forearm,Volear Forearm
+Volear Forearm.1,Volear Forearm
+Plantar Foot,Plantar Foot
+Plantar Foot.1,Plantar Foot
+Forehead,Forehead
+Palmar Index Finger,Palmar Index Finger
+Palmar Index Finger.1,Palmar Index Finger
+Popliteal Fossa,Popliteal Fossa
+Popliteal Fossa.1,Popliteal Fossa
+Labia Minora,Labia Minora
+Umbilicus,Umbilicus
+External Nose,External Nose
+Pinna,Pinna
+Pinna.1,Pinna
+Palm,Palm
+Palm.1,Palm
+Axilla.2,Axilla
+Axilla.3,Axilla
+Volear Forearm.2,Volear Forearm
+Volear Forearm.3,Volear Forearm
+Plantar Foot.2,Plantar Foot
+Plantar Foot.3,Plantar Foot
+Forehead.1,Forehead
+Palmar Index Finger.2,Palmar Index Finger
+Palmar Index Finger.3,Palmar Index Finger
+Popliteal Fossa.2,Popliteal Fossa
+Popliteal Fossa.3,Popliteal Fossa
+Labia Minora.1,Labia Minora
+Umbilicus.1,Umbilicus
+External Nose.1,External Nose
+Pinna.2,Pinna
+Pinna.3,Pinna
+Palm.2,Palm
+Palm.3,Palm
+Plantar Foot.4,Plantar Foot
+Plantar Foot.5,Plantar Foot
+Forehead.2,Forehead
+Popliteal Fossa.4,Popliteal Fossa
+Palm.4,Palm
+Palm.5,Palm
+Plantar Foot.6,Plantar Foot
+Plantar Foot.7,Plantar Foot
+Forehead.3,Forehead
+Popliteal Fossa.5,Popliteal Fossa
+Palm.6,Palm
+Palm.7,Palm
+Axilla.4,Axilla
+Axilla.5,Axilla
+Volear Forearm.4,Volear Forearm
+Volear Forearm.5,Volear Forearm
+Plantar Foot.8,Plantar Foot
+Plantar Foot.9,Plantar Foot
+Forehead.4,Forehead
+Palmar Index Finger.4,Palmar Index Finger
+Palmar Index Finger.5,Palmar Index Finger
+Popliteal Fossa.6,Popliteal Fossa
+Popliteal Fossa.7,Popliteal Fossa
+Labia Minora.2,Labia Minora
+Umbilicus.2,Umbilicus
+External Nose.2,External Nose
+Pinna.4,Pinna
+Palm.8,Palm
+Palm.9,Palm
+Axilla.6,Axilla
+Axilla.7,Axilla
+Volear Forearm.6,Volear Forearm
+Volear Forearm.7,Volear Forearm
+Plantar Foot.10,Plantar Foot
+Plantar Foot.11,Plantar Foot
+Forehead.5,Forehead
+Palmar Index Finger.6,Palmar Index Finger
+Palmar Index Finger.7,Palmar Index Finger
+Popliteal Fossa.8,Popliteal Fossa
+Popliteal Fossa.9,Popliteal Fossa
+Labia Minora.3,Labia Minora
+Umbilicus.3,Umbilicus
+External Nose.3,External Nose
+Pinna.5,Pinna
+Pinna.6,Pinna
+Palm.10,Palm
+Palm.11,Palm
+Plantar Foot.12,Plantar Foot
+Plantar Foot.13,Plantar Foot
+Forehead.6,Forehead
+Popliteal Fossa.10,Popliteal Fossa
+Palm.12,Palm
+Palm.13,Palm
+Plantar Foot.14,Plantar Foot
+Plantar Foot.15,Plantar Foot
+Forehead.7,Forehead
+Popliteal Fossa.11,Popliteal Fossa
+Palm.14,Palm
+Palm.15,Palm
+Axilla.8,Axilla
+Axilla.9,Axilla
+Volear Forearm.8,Volear Forearm
+Volear Forearm.9,Volear Forearm
+Plantar Foot.16,Plantar Foot
+Plantar Foot.17,Plantar Foot
+Forehead.8,Forehead
+Palmar Index Finger.8,Palmar Index Finger
+Palmar Index Finger.9,Palmar Index Finger
+Popliteal Fossa.12,Popliteal Fossa
+Popliteal Fossa.13,Popliteal Fossa
+Labia Minora.4,Labia Minora
+External Nose.4,External Nose
+Pinna.7,Pinna
+Pinna.8,Pinna
+Palm.16,Palm
+Palm.17,Palm
+Axilla.10,Axilla
+Axilla.11,Axilla
+Volear Forearm.10,Volear Forearm
+Volear Forearm.11,Volear Forearm
+Plantar Foot.18,Plantar Foot
+Plantar Foot.19,Plantar Foot
+Forehead.9,Forehead
+Palmar Index Finger.10,Palmar Index Finger
+Palmar Index Finger.11,Palmar Index Finger
+Popliteal Fossa.14,Popliteal Fossa
+Popliteal Fossa.15,Popliteal Fossa
+Labia Minora.5,Labia Minora
+Umbilicus.4,Umbilicus
+External Nose.5,External Nose
+Pinna.9,Pinna
+Pinna.10,Pinna
+Palm.18,Palm
+Palm.19,Palm
+Plantar Foot.20,Plantar Foot
+Plantar Foot.21,Plantar Foot
+Forehead.10,Forehead
+Popliteal Fossa.16,Popliteal Fossa
+Palm.20,Palm
+Palm.21,Palm
+Plantar Foot.22,Plantar Foot
+Plantar Foot.23,Plantar Foot
+Forehead.11,Forehead
+Popliteal Fossa.17,Popliteal Fossa
+Palm.22,Palm
+Palm.23,Palm
+Axilla.12,Axilla
+Axilla.13,Axilla
+Volear Forearm.12,Volear Forearm
+Volear Forearm.13,Volear Forearm
+Plantar Foot.24,Plantar Foot
+Plantar Foot.25,Plantar Foot
+Forehead.12,Forehead
+Glans Penis,Glans Penis
+Palmar Index Finger.12,Palmar Index Finger
+Palmar Index Finger.13,Palmar Index Finger
+Popliteal Fossa.18,Popliteal Fossa
+Popliteal Fossa.19,Popliteal Fossa
+Umbilicus.5,Umbilicus
+External Nose.6,External Nose
+Pinna.11,Pinna
+Pinna.12,Pinna
+Palm.24,Palm
+Palm.25,Palm
+Axilla.14,Axilla
+Axilla.15,Axilla
+Volear Forearm.14,Volear Forearm
+Volear Forearm.15,Volear Forearm
+Plantar Foot.26,Plantar Foot
+Plantar Foot.27,Plantar Foot
+Forehead.13,Forehead
+Glans Penis.1,Glans Penis
+Palmar Index Finger.14,Palmar Index Finger
+Palmar Index Finger.15,Palmar Index Finger
+Popliteal Fossa.20,Popliteal Fossa
+Popliteal Fossa.21,Popliteal Fossa
+Umbilicus.6,Umbilicus
+External Nose.7,External Nose
+Pinna.13,Pinna
+Pinna.14,Pinna
+Palm.26,Palm
+Palm.27,Palm
+Plantar Foot.28,Plantar Foot
+Plantar Foot.29,Plantar Foot
+Forehead.14,Forehead
+Popliteal Fossa.22,Popliteal Fossa
+Palm.28,Palm
+Palm.29,Palm
+Plantar Foot.30,Plantar Foot
+Plantar Foot.31,Plantar Foot
+Forehead.15,Forehead
+Popliteal Fossa.23,Popliteal Fossa
+Palm.30,Palm
+Palm.31,Palm
+Axilla.16,Axilla
+Axilla.17,Axilla
+Volear Forearm.16,Volear Forearm
+Volear Forearm.17,Volear Forearm
+Plantar Foot.32,Plantar Foot
+Plantar Foot.33,Plantar Foot
+Forehead.16,Forehead
+Glans Penis.2,Glans Penis
+Palmar Index Finger.16,Palmar Index Finger
+Palmar Index Finger.17,Palmar Index Finger
+Popliteal Fossa.24,Popliteal Fossa
+Popliteal Fossa.25,Popliteal Fossa
+Umbilicus.7,Umbilicus
+External Nose.8,External Nose
+Pinna.15,Pinna
+Pinna.16,Pinna
+Palm.32,Palm
+Palm.33,Palm
+Axilla.18,Axilla
+Axilla.19,Axilla
+Volear Forearm.18,Volear Forearm
+Volear Forearm.19,Volear Forearm
+Plantar Foot.34,Plantar Foot
+Plantar Foot.35,Plantar Foot
+Forehead.17,Forehead
+Glans Penis.3,Glans Penis
+Palmar Index Finger.18,Palmar Index Finger
+Palmar Index Finger.19,Palmar Index Finger
+Popliteal Fossa.26,Popliteal Fossa
+Popliteal Fossa.27,Popliteal Fossa
+Umbilicus.8,Umbilicus
+External Nose.9,External Nose
+Pinna.17,Pinna
+Pinna.18,Pinna
+Palm.34,Palm
+Palm.35,Palm
+Plantar Foot.36,Plantar Foot
+Plantar Foot.37,Plantar Foot
+Forehead.18,Forehead
+Popliteal Fossa.28,Popliteal Fossa
+Palm.36,Palm
+Palm.37,Palm
+Plantar Foot.38,Plantar Foot
+Plantar Foot.39,Plantar Foot
+Forehead.19,Forehead
+Popliteal Fossa.29,Popliteal Fossa
+Palm.38,Palm
+Palm.39,Palm
+Axilla.20,Axilla
+Axilla.21,Axilla
+Volear Forearm.20,Volear Forearm
+Volear Forearm.21,Volear Forearm
+Plantar Foot.40,Plantar Foot
+Plantar Foot.41,Plantar Foot
+Forehead.20,Forehead
+Glans Penis.4,Glans Penis
+Palmar Index Finger.20,Palmar Index Finger
+Palmar Index Finger.21,Palmar Index Finger
+Popliteal Fossa.30,Popliteal Fossa
+Popliteal Fossa.31,Popliteal Fossa
+Umbilicus.9,Umbilicus
+External Nose.10,External Nose
+Pinna.19,Pinna
+Pinna.20,Pinna
+Palm.40,Palm
+Palm.41,Palm
+Axilla.22,Axilla
+Axilla.23,Axilla
+Volear Forearm.22,Volear Forearm
+Volear Forearm.23,Volear Forearm
+Plantar Foot.42,Plantar Foot
+Plantar Foot.43,Plantar Foot
+Forehead.21,Forehead
+Glans Penis.5,Glans Penis
+Palmar Index Finger.22,Palmar Index Finger
+Palmar Index Finger.23,Palmar Index Finger
+Popliteal Fossa.32,Popliteal Fossa
+Popliteal Fossa.33,Popliteal Fossa
+External Nose.11,External Nose
+Pinna.21,Pinna
+Pinna.22,Pinna
+Palm.42,Palm
+Palm.43,Palm
+Plantar Foot.44,Plantar Foot
+Plantar Foot.45,Plantar Foot
+Forehead.22,Forehead
+Popliteal Fossa.34,Popliteal Fossa
+Palm.44,Palm
+Palm.45,Palm
+Plantar Foot.46,Plantar Foot
+Plantar Foot.47,Plantar Foot
+Forehead.23,Forehead
+Popliteal Fossa.35,Popliteal Fossa
+Palm.46,Palm
+Palm.47,Palm
+Axilla.24,Axilla
+Axilla.25,Axilla
+Volear Forearm.24,Volear Forearm
+Volear Forearm.25,Volear Forearm
+Plantar Foot.48,Plantar Foot
+Plantar Foot.49,Plantar Foot
+Forehead.24,Forehead
+Glans Penis.6,Glans Penis
+Palmar Index Finger.24,Palmar Index Finger
+Palmar Index Finger.25,Palmar Index Finger
+Popliteal Fossa.36,Popliteal Fossa
+Popliteal Fossa.37,Popliteal Fossa
+Umbilicus.10,Umbilicus
+External Nose.12,External Nose
+Pinna.23,Pinna
+Pinna.24,Pinna
+Palm.48,Palm
+Palm.49,Palm
+Axilla.26,Axilla
+Axilla.27,Axilla
+Volear Forearm.26,Volear Forearm
+Volear Forearm.27,Volear Forearm
+Plantar Foot.50,Plantar Foot
+Plantar Foot.51,Plantar Foot
+Forehead.25,Forehead
+Glans Penis.7,Glans Penis
+Palmar Index Finger.26,Palmar Index Finger
+Palmar Index Finger.27,Palmar Index Finger
+Popliteal Fossa.38,Popliteal Fossa
+Popliteal Fossa.39,Popliteal Fossa
+Umbilicus.11,Umbilicus
+External Nose.13,External Nose
+Pinna.25,Pinna
+Pinna.26,Pinna
+Palm.50,Palm
+Palm.51,Palm
+Plantar Foot.52,Plantar Foot
+Plantar Foot.53,Plantar Foot
+Forehead.26,Forehead
+Popliteal Fossa.40,Popliteal Fossa
+Palm.52,Palm
+Palm.53,Palm
+Plantar Foot.54,Plantar Foot
+Plantar Foot.55,Plantar Foot
+Forehead.27,Forehead
+Popliteal Fossa.41,Popliteal Fossa
+Palm.54,Palm
+Palm.55,Palm
+Plantar Foot.56,Plantar Foot
+Plantar Foot.57,Plantar Foot
+Forehead.28,Forehead
+Popliteal Fossa.42,Popliteal Fossa
+Palm.56,Palm
+Palm.57,Palm
+Plantar Foot.58,Plantar Foot
+Plantar Foot.59,Plantar Foot
+Forehead.29,Forehead
+Popliteal Fossa.43,Popliteal Fossa
+Palm.58,Palm
+Palm.59,Palm
+Plantar Foot.60,Plantar Foot
+Plantar Foot.61,Plantar Foot
+Forehead.30,Forehead
+Popliteal Fossa.44,Popliteal Fossa
+Palm.60,Palm
+Palm.61,Palm
+Plantar Foot.62,Plantar Foot
+Plantar Foot.63,Plantar Foot
+Forehead.31,Forehead
+Popliteal Fossa.45,Popliteal Fossa
+Palm.62,Palm
+Palm.63,Palm

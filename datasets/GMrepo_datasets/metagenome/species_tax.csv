@@ -1,0 +1,501 @@
+ncbi_taxon_id,scientific_name
+167,Treponema succinifaciens
+197,Campylobacter jejuni
+199,Campylobacter concisus
+200,Campylobacter curvus
+210,Helicobacter pylori
+213,Helicobacter cinaedi
+215,Helicobacter fennelliae
+236,Brucella ovis
+256,Myroides odoratus
+285,Comamonas testosteroni
+287,Pseudomonas aeruginosa
+293,Brevundimonas diminuta
+296,Pseudomonas fragi
+300,Pseudomonas mendocina
+303,Pseudomonas putida
+316,Pseudomonas stutzeri
+329,Ralstonia pickettii
+470,Acinetobacter baumannii
+484,Neisseria flavescens
+487,Neisseria meningitidis
+490,Neisseria sicca
+511,Alcaligenes faecalis
+529,Ochrobactrum anthropi
+539,Eikenella corrodens
+545,Citrobacter koseri
+546,Citrobacter freundii
+548,[Enterobacter] aerogenes
+550,Enterobacter cloacae
+562,Escherichia coli
+564,Escherichia fergusonii
+565,Escherichia hermannii
+569,Hafnia alvei
+571,Klebsiella oxytoca
+573,Klebsiella pneumoniae
+582,Morganella morganii
+584,Proteus mirabilis
+587,Providencia rettgeri
+614,Serratia liquefaciens
+615,Serratia marcescens
+623,Shigella flexneri
+624,Shigella sonnei
+648,Aeromonas caviae
+651,Aeromonas media
+654,Aeromonas veronii
+703,Plesiomonas shigelloides
+726,Haemophilus haemolyticus
+727,Haemophilus influenzae
+729,Haemophilus parainfluenzae
+735,Haemophilus parahaemolyticus
+736,Haemophilus paraphrohaemolyticus
+739,Aggregatibacter segnis
+817,Bacteroides fragilis
+818,Bacteroides thetaiotaomicron
+820,Bacteroides uniformis
+821,Bacteroides vulgatus
+823,Parabacteroides distasonis
+824,Campylobacter gracilis
+827,Campylobacter ureolyticus
+840,Prevotella loescheii
+849,Fusobacterium gonidiaformans
+850,Fusobacterium mortiferum
+851,Fusobacterium nucleatum
+853,Faecalibacterium prausnitzii
+856,Fusobacterium varium
+859,Fusobacterium necrophorum
+860,Fusobacterium periodonticum
+861,Fusobacterium ulcerans
+876,Desulfovibrio desulfuricans
+901,Desulfovibrio piger
+905,Acidaminococcus fermentans
+907,Megasphaera elsdenii
+1018,Capnocytophaga ochracea
+1076,Rhodopseudomonas palustris
+1246,Leuconostoc lactis
+1254,Pediococcus acidilactici
+1255,Pediococcus pentosaceus
+1260,Finegoldia magna
+1261,Peptostreptococcus anaerobius
+1264,Ruminococcus albus
+1270,Micrococcus luteus
+1280,Staphylococcus aureus
+1282,Staphylococcus epidermidis
+1283,Staphylococcus haemolyticus
+1286,Staphylococcus simulans
+1290,Staphylococcus hominis
+1292,Staphylococcus warneri
+1302,Streptococcus gordonii
+1304,Streptococcus salivarius
+1305,Streptococcus sanguinis
+1308,Streptococcus thermophilus
+1309,Streptococcus mutans
+1311,Streptococcus agalactiae
+1318,Streptococcus parasanguinis
+1328,Streptococcus anginosus
+1334,Streptococcus dysgalactiae
+1338,Streptococcus intermedius
+1343,Streptococcus vestibularis
+1351,Enterococcus faecalis
+1352,Enterococcus faecium
+1353,Enterococcus gallinarum
+1354,Enterococcus hirae
+1358,Lactococcus lactis
+1363,Lactococcus garvieae
+1379,Gemella haemolysans
+1381,Atopobium minutum
+1382,Atopobium parvulum
+1396,Bacillus cereus
+1402,Bacillus licheniformis
+1408,Bacillus pumilus
+1421,Lysinibacillus sphaericus
+1490,Paraclostridium bifermentans
+1492,Clostridium butyricum
+1496,Clostridioides difficile
+1502,Clostridium perfringens
+1505,Paeniclostridium sordellii
+1509,Clostridium sporogenes
+1512,[Clostridium] symbiosum
+1522,[Clostridium] innocuum
+1531,[Clostridium] clostridioforme
+1535,[Clostridium] leptum
+1547,Erysipelatoclostridium ramosum
+1579,Lactobacillus acidophilus
+1580,Lactobacillus brevis
+1582,Lactobacillus casei
+1583,Weissella confusa
+1584,Lactobacillus delbrueckii
+1587,Lactobacillus helveticus
+1590,Lactobacillus plantarum
+1596,Lactobacillus gasseri
+1598,Lactobacillus reuteri
+1599,Lactobacillus sakei
+1604,Lactobacillus amylovorus
+1605,Lactobacillus animalis
+1613,Lactobacillus fermentum
+1623,Lactobacillus ruminis
+1624,Lactobacillus salivarius
+1625,Lactobacillus sanfranciscensis
+1632,Lactobacillus oris
+1633,Lactobacillus vaginalis
+1655,Actinomyces naeslundii
+1660,Actinomyces odontolyticus
+1680,Bifidobacterium adolescentis
+1681,Bifidobacterium bifidum
+1683,Bifidobacterium angulatum
+1685,Bifidobacterium breve
+1686,Bifidobacterium catenulatum
+1689,Bifidobacterium dentium
+1694,Bifidobacterium pseudolongum
+1718,Corynebacterium glutamicum
+1735,Holdemanella biformis
+1736,Eubacterium limosum
+1747,Propionibacterium acnes
+1833,Rhodococcus erythropolis
+2098,Mycoplasma hominis
+2173,Methanobrevibacter smithii
+2317,Methanosphaera stadtmanae
+2702,Gardnerella vaginalis
+28025,Bifidobacterium animalis
+28026,Bifidobacterium pseudocatenulatum
+28031,Lysinibacillus fusiformis
+28035,Staphylococcus lugdunensis
+28037,Streptococcus mitis
+28080,Campylobacter upsaliensis
+28090,Acinetobacter lwoffii
+28111,Bacteroides eggerthii
+28116,Bacteroides ovatus
+28117,Alistipes putredinis
+28118,Odoribacter splanchnicus
+28123,Porphyromonas asaccharolytica
+28124,Porphyromonas endodontalis
+28125,Prevotella bivia
+28126,Prevotella buccae
+28127,Prevotella buccalis
+28129,Prevotella denticola
+28130,Prevotella disiens
+28131,Prevotella intermedia
+28132,Prevotella melaninogenica
+28133,Prevotella nigrescens
+28135,Prevotella oris
+28137,Prevotella veroralis
+28141,Cronobacter sakazakii
+28449,Neisseria subflava
+28901,Salmonella enterica
+29348,[Clostridium] spiroforme
+29361,Tyzzerella nexilis
+29380,Staphylococcus caprae
+29382,Staphylococcus cohnii
+29391,Gemella morbillorum
+29466,Veillonella parvula
+31971,[Eubacterium] dolichum
+33007,Actinomyces neuii
+33010,Propionibacterium avidum
+33011,Propionibacterium granulosum
+33012,Propionimicrobium lymphophilum
+33029,Anaerococcus hydrogenalis
+33033,Parvimonas micra
+33034,Anaerococcus prevotii
+33035,Blautia producta
+33037,Anaerococcus vaginalis
+33038,[Ruminococcus] gnavus
+33039,[Ruminococcus] torques
+33043,Coprococcus eutactus
+33945,Enterococcus avium
+33959,Lactobacillus johnsonii
+35833,Bilophila wadsworthia
+36834,Clostridium celatum
+36841,Terrisporobacter glycolicus
+37734,Enterococcus casseliflavus
+38284,Corynebacterium accolens
+38303,Corynebacterium pseudogenitalium
+38304,Corynebacterium tuberculostearicum
+39483,Faecalitalea cylindroides
+39485,[Eubacterium] eligens
+39486,Dorea formicigenerans
+39488,[Eubacterium] hallii
+39490,Eubacterium ramulus
+39491,[Eubacterium] rectale
+39492,[Eubacterium] siraeum
+39496,Eubacterium ventriosum
+39777,Veillonella atypica
+39778,Veillonella dispar
+39791,Corynebacterium glucuronolyticum
+40214,Acinetobacter johnsonii
+40215,Acinetobacter junii
+40216,Acinetobacter radioresistens
+40324,Stenotrophomonas maltophilia
+40518,Ruminococcus bromii
+40519,Ruminococcus callidus
+40520,Blautia obeum
+40545,Sutterella wadsworthensis
+43675,Rothia mucilaginosa
+43765,Corynebacterium amycolatum
+43770,Corynebacterium striatum
+44008,Enterococcus cecorum
+44009,Enterococcus dispar
+45851,Butyrivibrio crossotus
+46124,Granulicatella adiacens
+46125,Abiotrophia defectiva
+46228,Ruminococcus lactaris
+46503,Parabacteroides merdae
+46506,Bacteroides stercoris
+47678,Bacteroides caccae
+47715,Lactobacillus rhamnosus
+47770,Lactobacillus crispatus
+47886,Pseudomonas luteola
+48296,Acinetobacter pittii
+52226,Mitsuokella multacida
+52584,Brachyspira pilosicoli
+53345,Enterococcus durans
+53346,Enterococcus mundtii
+53443,Blautia hydrogenotrophica
+54005,Peptoniphilus harei
+54291,Raoultella ornithinolytica
+55565,Actinomyces graevenitzii
+56774,[Eubacterium] infirmum
+56946,Afipia broomeae
+57732,Enterococcus asini
+59310,Streptococcus macedonicus
+61171,Holdemania filiformis
+61645,Enterobacter asburiae
+66228,Actinomyces europaeus
+68891,Streptococcus peroris
+68892,Streptococcus infantis
+71452,Enterococcus raffinosus
+72000,Kocuria rhizophila
+72556,Achromobacter piechaudii
+74426,Collinsella aerofaciens
+76759,Pseudomonas monteilii
+76853,Solibacillus silvestris
+76860,Streptococcus constellatus
+79880,Bacillus clausii
+80866,Delftia acidovorans
+84030,[Clostridium] saccharolyticum
+84112,Eggerthella lenta
+85698,Achromobacter xylosoxidans
+88431,Dorea longicatena
+89153,[Clostridium] hylemonae
+97478,Lactobacillus mucosae
+100884,Coprobacillus cateniformis
+100886,Catenibacterium mitsuokai
+101564,Pseudomonas alcaliphila
+102148,Solobacterium moorei
+102684,Streptococcus infantarius
+102862,Proteus penneri
+103621,Actinomyces urogenitalis
+103892,Veillonella ratti
+105841,Anaerostipes caccae
+106588,Pseudoflavonifractor capillosus
+106648,Acinetobacter bereziniae
+106649,Acinetobacter guillouiae
+108980,Acinetobacter ursingii
+113107,Streptococcus australis
+115979,Bacillus nealsonii
+116085,Coprococcus catus
+120576,Brucella pinnipedialis
+126385,Providencia alcalifaciens
+131111,Actinomyces turicensis
+134821,Ureaplasma parvum
+137591,Weissella cibaria
+137732,Granulicatella elegans
+147206,Collinsella stercoris
+147207,Collinsella intestinalis
+147802,Lactobacillus iners
+150055,Streptococcus lutetiensis
+154046,Hungatella hathewayi
+154288,Turicibacter sanguinis
+156456,Anaeroglobus geminatus
+156974,Dysgonomonas gadei
+158836,Enterobacter hormaechei
+158847,Megamonas hypermegale
+160454,Enterococcus pallens
+161879,Corynebacterium kroppenstedtii
+163665,Dysgonomonas mossii
+165179,Prevotella copri
+166486,Roseburia intestinalis
+169292,Corynebacterium aurimucosum
+169435,Anaerotruncus colihominis
+184870,Varibaculum cambriense
+187326,Megasphaera micronuciformis
+187327,Acidaminococcus intestini
+188913,Cetobacterium somerae
+197614,Streptococcus pasteurianus
+204038,Dickeya dadantii
+204516,Bacteroides massiliensis
+208479,[Clostridium] bolteae
+208962,Escherichia albertii
+214856,Alistipes finegoldii
+216816,Bifidobacterium longum
+218538,Dialister invisus
+225906,Paenibacillus sanguinis
+228574,Paenibacillus lactis
+230143,Scardovia wiggsiae
+239935,Akkermansia muciniphila
+244366,Klebsiella variicola
+246432,Staphylococcus equorum
+246787,Bacteroides cellulosilyticus
+249188,Haemophilus pittmaniae
+253239,Ethanoligenens harbinense
+261299,Intestinibacter bartlettii
+281920,Porphyromonas uenonis
+290053,Bacteroides helcogenes
+291644,Bacteroides salyersiae
+291645,Bacteroides nordii
+292800,Flavonifractor plautii
+301301,Roseburia hominis
+309120,Dialister micraerophilus
+310297,Bacteroides plebeius
+310298,Bacteroides coprocola
+310575,Advenella kashmirensis
+315405,Streptococcus gallolyticus
+322095,Porphyromonas somerae
+328812,Parabacteroides goldsteinii
+328813,Alistipes onderdonkii
+328814,Alistipes shahii
+329854,Bacteroides intestinalis
+333367,[Clostridium] asparagiforme
+338188,Bacteroides finegoldii
+341694,Peptostreptococcus stomatis
+343517,Paenibacillus barengoltzii
+351091,Oscillibacter valericigenes
+357276,Bacteroides dorei
+358743,[Clostridium] citroniae
+360807,Roseburia inulinivorans
+363259,Kaistia granuli
+363265,Prevotella stercorea
+371601,Bacteroides xylanisolvens
+376804,Bacteroides barnesiae
+376805,Bacteroides salanitronis
+376806,Bacteroides gallinarum
+380021,Pseudomonas protegens
+384638,[Bacteroides] pectinophilus
+386414,Prevotella timonensis
+387090,Bacteroides coprophilus
+387661,Parabacteroides johnsonii
+410072,Coprococcus comes
+411484,Clostridium sp. SS2/1
+411489,Clostridium sp. L2-50
+412383,Solibacillus isronensis
+415425,Flavobacterium terrae
+419005,Prevotella amnii
+419015,Alloscardovia omnicolens
+419257,Yersinia massiliensis
+425941,Prevotella nanceiensis
+435842,Streptococcus sp. C150
+437897,Megamonas funiformis
+437898,Sutterella parvirubra
+446660,Adlercreutzia equolifaciens
+450749,Veillonella sp. 6_1_27
+454154,Paraprevotella clara
+454155,Paraprevotella xylaniphila
+457387,Bacteroides sp. 1_1_30
+457392,Bacteroides sp. 3_2_5
+457394,Bacteroides sp. 4_3_47FAA
+457395,Bacteroides sp. 9_1_42FAA
+457396,Clostridium sp. 7_2_43FAA
+457402,Eubacterium sp. 3_1_31
+457412,Ruminococcus sp. 5_1_39BFAA
+457415,Synergistes sp. 3_1_syn1
+457416,Veillonella sp. 3_1_44
+457421,Clostridiales bacterium 1_7_47FAA
+457422,Erysipelotrichaceae bacterium 2_2_44A
+469585,Bacteroides sp. 1_1_14
+469586,Bacteroides sp. 1_1_6
+469588,Bacteroides sp. 2_1_22
+469590,Bacteroides sp. 2_2_4
+469591,Parabacteroides sp. 20_3
+469592,Bacteroides sp. 3_1_19
+469593,Bacteroides sp. 3_1_40A
+469596,Coprobacillus sp. 29_1
+469610,Burkholderiales bacterium 1_1_47
+469613,Enterobacteriaceae bacterium 9_2_54FAA
+469614,Erysipelotrichaceae bacterium 6_1_45
+471189,Gordonibacter pamelaeae
+487173,Dialister succinatiphilus
+487174,Barnesiella intestinihominis
+487175,Parasutterella excrementihominis
+491921,Megamonas rupellensis
+501496,Porphyromonas bennonis
+501571,Butyricicoccus pullicaecorum
+521720,Pseudomonas caeni
+539813,Enterobacter mori
+552395,Lachnospiraceae bacterium 4_1_37FAA
+552396,Erysipelotrichaceae bacterium 5_2_54FAA
+552398,Ruminococcaceae bacterium D16
+556261,Clostridium sp. D5
+563191,Acidaminococcus sp. D21
+563193,Parabacteroides sp. D13
+626929,Bacteroides clarus
+626930,Bacteroides fluxus
+626931,Bacteroides oleiciplenus
+626932,Alistipes indistinctus
+626933,Odoribacter laneus
+626934,Slackia piriformis
+626935,Collinsella tanakaei
+626940,Phascolarctobacterium succinatutens
+638849,Pyramidobacter piscolens
+649724,Clostridium sp. ATCC BAA-442
+649756,Anaerostipes hadrus
+658081,Lachnospiraceae bacterium 1_1_57FAA
+658082,Lachnospiraceae bacterium 2_1_58FAA
+658083,Lachnospiraceae bacterium 6_1_63FAA
+658085,Lachnospiraceae bacterium 5_1_57FAA
+658086,Lachnospiraceae bacterium 3_1_57FAA_CT1
+658087,Lachnospiraceae bacterium 7_1_58FAA
+658088,Lachnospiraceae bacterium 9_1_43BFAA
+658089,Lachnospiraceae bacterium 5_1_63FAA
+658655,Lachnospiraceae bacterium 1_4_56FAA
+658657,Erysipelotrichaceae bacterium 21_3
+658659,Erysipelotrichaceae bacterium 3_1_53
+665937,Anaerostipes sp. 3_2_56FAA
+665938,Bacteroides sp. 2_1_56FAA
+665943,Eggerthella sp. 1_3_56FAA
+665950,Lachnospiraceae bacterium 3_1_46FAA
+665951,Lachnospiraceae bacterium 8_1_57FAA
+665956,Subdoligranulum sp. 4_3_54A2FAA
+671218,Alloprevotella rava
+671229,Veillonella sp. oral taxon 780
+674529,Bacteroides faecis
+712991,Lachnospiraceae bacterium oral taxon 500
+742723,Lachnospiraceae bacterium 2_1_46FAA
+749535,Klebsiella sp. MS 92-3
+751585,Coprococcus sp. ART55/1
+754330,Escherichia sp. TW09276
+754333,Escherichia sp. TW11588
+908612,Alistipes sp. HGB5
+936548,Actinomyces sp. ICM47
+936594,Lachnoanaerobaculum sp. ICM7
+1070699,Clostridiaceae bacterium JC118
+1077464,Streptococcus tigurinus
+1078090,Coprococcus sp. HPP0074
+1078091,Coprococcus sp. HPP0048
+1078480,Haemophilus sputorum
+1078764,Corynebacterium sp. HFH0082
+1095771,Ruminococcus sp. JC304
+1099853,Coprobacter fastidiosus
+1105030,Actinomyces sp. ICM58
+1105031,Clostridium sp. MSTE9
+1111120,Acidaminococcus sp. BV3L6
+1111121,Atopobium sp. BV3Ac4
+1111135,Coriobacteriaceae bacterium BV3Ac1
+1118058,Actinomyces sp. ph3
+1118060,Enorma massiliensis phI
+1118061,Alistipes obesi
+1161942,Ruminococcus champanellensis
+1169673,Streptococcus sp. GMD4S
+1175452,Peptoniphilus rhinitidis
+1203555,Acidaminococcus sp. HPA0509
+1203556,Actinomyces sp. HPA0247
+1203568,Dermabacter sp. HFH0086
+1203571,Propionibacterium sp. HGH0353
+1203593,Veillonella sp. HPA0037
+1211813,Candidatus Alistipes marseilloanorexicus AP11
+1211819,Holdemania massiliensis AP2
+1226322,Oscillibacter sp. KLE 1728
+1226323,Oscillibacter sp. KLE 1745
+1226325,Clostridium sp. KLE 1755
+1257080,Paenibacillus sp. PAMC 26794
+1287640,Anaerococcus obesiensis
+1288121,Alistipes senegalensis
+1329817,Enterobacter sp. MGH 8

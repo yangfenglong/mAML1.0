@@ -16,17 +16,16 @@ mAML1.0/
 │   ├── sklearn_pipeline.py 	# main script for the pipeline
 │   ├── sklearn_pipeline_config.py 	# config file for changing classifiers with parameters grid and scalars 
 │   └── utils.py 	# usefull functions
-├── datasets/ 	# 18 datasets
-│   ├── Cho2012_Antibiotics_cecal.5
-│   ├── Cho2012_Antibiotics_fecal.5
-│   ...
-│   ├── Morgan2012_IBD.3
-│   ├── Qin2012_Diabetes
-│   ├── Qin2014_Cirrhosis
-│   ├── Ravel2011_Vaginal
-│   ├── Wu2011_Diet
-│   └── Yang2010_EsophagitisPDX.4
-└── results 	# 18 datasets benchmark test results
+├── datasets            
+│   ├── GMrepo_datasets/
+│	│	├── GMrepo.ipynb # data download andd process ipython notebook (python)
+│	│	├── amplicon.zip # amplicon datasets
+│	│	├── metagenome.zip # metagenome datasets
+│	│	├── phyloseq.ipynb # seperate phenotypes and generate phyloseq.Rdata (R)
+│	│	└── ...
+│   │
+│   └── benchmark_datasets  # 18 benchmark datasets for testing the performance of mAML
+└── results 	# benchmark results
     ├── Cho2012_Antibiotics_cecal.5
     ├── Cho2012_Antibiotics_cecal.5.csv_20191114034958.log
     ├── Cho2012_Antibiotics_fecal.5
