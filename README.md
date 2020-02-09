@@ -1,9 +1,23 @@
 # mAML1.0
 
+## mAML pipeline
+
 Automated machine learning model building pipeline for microbiome data
 
-![](./src/workflow_and_benchmark_results.svg)
-Flowchart of the mAML pipeline (A) and the performance compared to [baselines](http://39.100.246.211:8050/Dataset) (B). Labels are abbreviation of each dataset and the metrics used in original study
+![](./src/mAML_pipeline.png)
+
+Flowchart of the mAML pipeline. Two files indicated at the beginning of the pipeline should be submitted to the mAML web server. Operation steps before training are indicated in the blue inverse-trapezoids.
+
+![](./src/radar.png)
+
+Performance of mAML compared to [benchmark baselines](http://39.100.246.211:8050/Dataset). Labels are abbreviation of each dataset and the metrics used in original study
+
+
+## GMrepo ML repository 
+
+![](./src/database.png)
+
+Framework of the GMrepo ML repository construction. Operation steps are indicated in the blue inverse-trapezoids. Files with name in bold are all contained in the ML repository.
 
 ## Overview
 
@@ -18,13 +32,12 @@ mAML1.0/
 │   └── utils.py 	# usefull functions
 ├── datasets            
 │   ├── GMrepo_datasets/
-│	│	├── GMrepo.ipynb # data download andd process ipython notebook (python)
-│	│	├── amplicon.zip # amplicon datasets
-│	│	├── metagenome.zip # metagenome datasets
-│	│	├── phyloseq.ipynb # seperate phenotypes and generate phyloseq.Rdata (R)
-│	│	└── ...
-│   │
-│   └── benchmark_datasets  # 18 benchmark datasets for testing the performance of mAML
+│   │	├── GMrepo.ipynb # data download andd process ipython notebook (python)
+│   │	├── amplicon.zip # amplicon datasets
+│   │	├── metagenome.zip # metagenome datasets
+│   │	├── phyloseq.ipynb # seperate phenotypes and generate phyloseq.Rdata (R)
+│   │	└── ...
+│   └── benchmark_datasets  # 18 benchmark datasets for testing the performance of mAML
 └── results 	# benchmark results
     ├── Cho2012_Antibiotics_cecal.5
     ├── Cho2012_Antibiotics_cecal.5.csv_20191114034958.log
@@ -104,7 +117,7 @@ python ../code/sklearn_pipeline.py \
 
 ### 5. Visualization outputs of the pipeline
 
-![](./src/Huttenhower2012_HMP.BS.5.results.svg)
+![](./src/Huttenhower2012_HMP.BS.5.results.png)
 Visualizations for the best model of 'Huttenhower2012_HMP.BS.5' dataset: confusing matrix (A), ROC curve (B), classification report (C) and the top important features (D, default: top 20). In case of decision Tree based models, feature importances bar plot will be provided instead of feature’s coefficient plot.
 
 
