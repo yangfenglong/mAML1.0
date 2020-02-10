@@ -8,9 +8,11 @@ Automated machine learning model building pipeline for microbiome data
 
 Flowchart of the mAML pipeline. Two files indicated at the beginning of the pipeline should be submitted to the mAML web server. Operation steps before training are indicated in the blue inverse-trapezoids.
 
-![](./src/radar.png)
 
 ## mAML performance
+
+![](./src/radar.png)
+
 
 Performance of mAML compared to [benchmark baselines](http://39.100.246.211:8050/Dataset). Labels are abbreviation of each dataset and the metrics used in original study
 
