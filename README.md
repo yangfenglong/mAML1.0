@@ -10,6 +10,8 @@ Flowchart of the mAML pipeline. Two files indicated at the beginning of the pipe
 
 ![](./src/radar.png)
 
+## mAML performance
+
 Performance of mAML compared to [benchmark baselines](http://39.100.246.211:8050/Dataset). Labels are abbreviation of each dataset and the metrics used in original study
 
 
@@ -17,9 +19,9 @@ Performance of mAML compared to [benchmark baselines](http://39.100.246.211:8050
 
 ![](./src/database.png)
 
-Framework of the GMrepo ML repository construction. Operation steps are indicated in the blue inverse-trapezoids. Files with name in bold are all contained in the ML repository.
+Framework of the [GMrepo ML](https://github.com/yangfenglong/mAML1.0/tree/master/datasets/GMrepo_datasets) repository construction. Operation steps are indicated in the blue inverse-trapezoids. Files with name in bold are all contained in the ML repository.
 
-## Overview
+## Github repository Overview
 
 ```md
 mAML1.0/
