@@ -7,6 +7,5 @@ pandas==0.25.1
 plotnine==0.6.0
 pycm==2.4
 scipy==1.3.1
-skfeature==1.0.0
 sklearn==0.0
 xgboost==0.90
