@@ -76,6 +76,10 @@ cd mAML1.0
 ```
 python version is 3.7.3.
 pip3 install -r requirements.txt
+
+git clone https://github.com/jundongl/scikit-feature.git 
+# clone to your Python lib path to use MRMR feature selection method
+# from skfeature.function.information_theoretical_based import MRMR
 ```
 
 ### 3. Usage of the pipeline:
