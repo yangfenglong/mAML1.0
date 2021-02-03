@@ -72,7 +72,7 @@ cd mAML1.0
 ```
 
 ### 2. Install dependencies:
-
+Use the [docker image](https://hub.docker.com/r/yangfenglong/dash_webserver) for the running environment [recommended] . 
 ```
 python version is 3.7.3.
 pip3 install -r requirements.txt
@@ -81,6 +81,7 @@ git clone https://github.com/jundongl/scikit-feature.git
 # clone to your Python lib path to use MRMR feature selection method
 # from skfeature.function.information_theoretical_based import MRMR
 ```
+
 
 ### 3. Usage of the pipeline:
 
