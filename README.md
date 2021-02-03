@@ -133,5 +133,23 @@ Visualizations for the best model of 'Huttenhower2012_HMP.BS.5' dataset: confusi
 
 You can alse simply upload your own feature data to our [mAML web-server](http://39.100.246.211:8050/Server) to automatically build a predictive model following the [tutorial](http://39.100.246.211:8050/Help).  
 
+### Citation
+If you find mMAL pipeline useful in your research, please consider citing the following paper:
+```
+@article{10.1093/database/baaa050,
+    author = {Yang, Fenglong and Zou, Quan},
+    title = "{mAML: an automated machine learning pipeline with a microbiome repository for human disease classification}",
+    journal = {Database},
+    volume = {2020},
+    year = {2020},
+    month = {06},
+    issn = {1758-0463},
+    doi = {10.1093/database/baaa050},
+    url = {https://doi.org/10.1093/database/baaa050},
+    note = {baaa050},
+    eprint = {https://academic.oup.com/database/article-pdf/doi/10.1093/database/baaa050/33426278/baaa050.pdf},
+}
+
+```
 
 Any questions, contact me: yangfenglong110@126.com.
